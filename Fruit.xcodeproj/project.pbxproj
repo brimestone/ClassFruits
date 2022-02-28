@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0EFDE427CC522100AA6249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EFDE327CC522100AA6249 /* AppDelegate.swift */; };
 		8BA8875927C817B700FFBA9F /* FruitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8875827C817B700FFBA9F /* FruitApp.swift */; };
 		8BA8875B27C817B700FFBA9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8875A27C817B700FFBA9F /* ContentView.swift */; };
 		8BA8875D27C817B900FFBA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8875C27C817B900FFBA9F /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B0EFDE227CC30C700AA6249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B0EFDE327CC522100AA6249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA8875527C817B700FFBA9F /* Fruit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA8875827C817B700FFBA9F /* FruitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitApp.swift; sourceTree = "<group>"; };
 		8BA8875A27C817B700FFBA9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 		8BA8875727C817B700FFBA9F /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
+				8B0EFDE227CC30C700AA6249 /* Info.plist */,
+				8B0EFDE327CC522100AA6249 /* AppDelegate.swift */,
 				8BA8876627C81D1300FFBA9F /* App */,
 				8BFFBE9027C829E6006CD977 /* Data */,
 				8BFFBE8D27C82901006CD977 /* Model */,
@@ -216,6 +221,7 @@
 				8BFFBE9C27C938B6006CD977 /* FruitNutrientsView.swift in Sources */,
 				8BFFBE8A27C823E2006CD977 /* StartButtonView.swift in Sources */,
 				8BFFBE9627C84076006CD977 /* FruitDetailView.swift in Sources */,
+				8B0EFDE427CC522100AA6249 /* AppDelegate.swift in Sources */,
 				8BA8875B27C817B700FFBA9F /* ContentView.swift in Sources */,
 				8BFFBE9827C8441B006CD977 /* FruitHeaderView.swift in Sources */,
 				8BFFBE8C27C82783006CD977 /* OnboardingView.swift in Sources */,
@@ -356,6 +362,8 @@
 				DEVELOPMENT_TEAM = 3J6S8VNR3B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fruit/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Need Calendar Access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -386,6 +394,8 @@
 				DEVELOPMENT_TEAM = 3J6S8VNR3B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fruit/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Need Calendar Access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
